@@ -31,6 +31,9 @@ export class AuthController {
 
   @Post('logout')
   async logout(@Request() req) {
+    // TODO: Implement logout
+    // Clear redis?
+
     req.logout();
   }
 
